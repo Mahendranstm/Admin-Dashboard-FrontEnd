@@ -1,0 +1,9 @@
+.detail {
+  flex: 10;
+}
+
+.widgets {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px 40px;
+}

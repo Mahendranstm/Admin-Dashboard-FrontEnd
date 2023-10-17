@@ -1,0 +1,42 @@
+.widgetSm {
+  flex: 8;
+}
+
+.widgetSmImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.widgetTable {
+  width: 100%;
+  border-spacing: 10px;
+}
+
+.widgetTh {
+  text-align: left;
+}
+
+.widgetTr {
+  font-size: 14px;
+}
+
+td {
+  font-weight: 500;
+  color: black;
+}
+
+.widgetDispalyButton {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.widgetLgContainer {
+  margin-top: 10px;
+}

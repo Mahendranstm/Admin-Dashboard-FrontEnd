@@ -1,0 +1,35 @@
+.userBirthday {
+  margin: 20px 50px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: start;
+  gap: 10px;
+  border-radius: 10px;
+  justify-content: space-between;
+  background-color: white;
+  padding: 20px;
+  -webkit-box-shadow: -1px 0px 5px 0px rgba(97, 97, 97, 1);
+  -moz-box-shadow: -1px 0px 5px 0px rgba(97, 97, 97, 1);
+  box-shadow: -1px 0px 5px 0px rgba(97, 97, 97, 1);
+}
+
+.birthdayInfo {
+  height: 160px;
+}
+
+.brithdayPhoto {
+  width: 150px;
+  border-radius: 10px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.dob {
+  color: #555;
+  margin-top: 5px;
+}
+
+.birthdaytitle {
+  margin-left: 50px;
+}

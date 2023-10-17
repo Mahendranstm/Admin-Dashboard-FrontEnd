@@ -1,0 +1,8 @@
+.Container {
+  display: flex !important;
+}
+
+.others {
+  flex: 10;
+  background-color: black;
+}

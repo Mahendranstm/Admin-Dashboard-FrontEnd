@@ -1,0 +1,83 @@
+.createUser {
+  flex: 10;
+}
+
+.inputGroup {
+  margin: 30px;
+}
+
+.inputFields {
+  background-color: white;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  -webkit-box-shadow: -1px 0px 5px 0px rgba(97, 97, 97, 1);
+  -moz-box-shadow: -1px 0px 5px 0px rgba(97, 97, 97, 1);
+  box-shadow: -1px 0px 5px 0px rgba(97, 97, 97, 1);
+}
+
+.createUserForm {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.createUserItem {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  margin-right: 20px;
+}
+
+.createUserItem > label {
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  color: gray;
+}
+
+.createUserItem > input {
+  height: 20px !important;
+  padding: 10px !important;
+  border: 1px solid gray !important;
+  border-radius: 5px !important;
+}
+
+.userGender > input {
+  margin: 10px !important;
+  font-size: 18px !important;
+  color: #555 !important;
+}
+
+.createUserItem > select {
+  height: 40px;
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.createUserItem > button {
+  margin-top: 30px;
+}
+
+.createUserItemAddress > input {
+  height: 20px !important;
+  padding: 10px !important;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.createUserItemAddress {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  margin-right: 20px;
+}
+
+.createUserItemAddress > label {
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  color: gray;
+}

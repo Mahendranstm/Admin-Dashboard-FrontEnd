@@ -1,0 +1,95 @@
+.viewUser {
+  flex: 10;
+  margin-top: 20px;
+  height: 100vh;
+}
+
+.viewTable {
+  width: 80%;
+  margin: 0px auto;
+}
+
+.displayUser {
+  display: flex;
+  gap: 30px;
+  justify-content: start;
+}
+
+.userCard2 {
+  background-color: white;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 20px 20px;
+  border: 1px solid black;
+  -webkit-box-shadow: -1px 0px 5px 0px rgba(97, 97, 97, 1);
+  -moz-box-shadow: -1px 0px 5px 0px rgba(97, 97, 97, 1);
+  box-shadow: -1px 0px 5px 0px rgba(97, 97, 97, 1);
+}
+
+.userCard {
+  background-color: white;
+  border-radius: 5px;
+  width: 200px;
+  margin: 10px;
+  padding: 20px 40px;
+  border: 1px solid black;
+  -webkit-box-shadow: -1px 0px 5px 0px rgba(97, 97, 97, 1);
+  -moz-box-shadow: -1px 0px 5px 0px rgba(97, 97, 97, 1);
+  box-shadow: -1px 0px 5px 0px rgba(97, 97, 97, 1);
+}
+
+.userProfile {
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.userJob {
+  color: gray;
+  font-size: 12px;
+}
+
+.userDetails {
+  color: gray;
+  margin: 10px;
+  font-weight: 600;
+}
+
+.userAgeandBirth {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 20px;
+  font-size: 14px;
+}
+
+.userCard2 img {
+  width: 200px;
+  height: auto;
+  border: 1px solid black;
+}
+
+.userEducationandAddress {
+  display: flex;
+  gap: 100px;
+  flex-wrap: wrap;
+}
+
+.userDetails2 {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.educationAndJob p {
+  font-size: 14px;
+}
+
+.educationDetails > h4 {
+  margin: 10px;
+}
+
+.educationAndJob > p {
+  margin: 5px;
+  padding-left: 30px;
+}

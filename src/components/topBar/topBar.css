@@ -1,0 +1,30 @@
+.topBar {
+  height: 50px;
+  width: 100%;
+  background-color: white;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.topbarWrapper {
+  height: 100%;
+  padding: 0px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-weight: bolder;
+  font-size: 30px;
+  color: darkblue;
+  cursor: pointer;
+}
+
+.topAvatar {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+}
